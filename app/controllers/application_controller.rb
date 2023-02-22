@@ -5,7 +5,7 @@ class ApplicationController < ActionController::Base
   # ================================
 
   def homepage
-    render({ :template => "xtemplates/rules.erb"})
+    render({ :template => "xtemplates/rules.html.erb"})
   end
 
 
